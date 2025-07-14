@@ -38,11 +38,11 @@ def send_open_prices():
 
             # 메시지 포맷
             text = (
-                "🗺️ 경로 탐색 완료\n"
+                "🗺️ 급등 종목 탐색 완료\n"
                 f"종목명: {name_kr}\n"
                 f"💰 현재가: {price_str}원\n\n"
                 "🚀 출발 가격:\n"
-                f" • {name_kr} — {price_str}원 이하 매수 진행\n\n"
+                f" • {name_kr} — {price_str}원 이하 매수 \n\n"
                 "🎯 도착 가격:\n"
                 " • 5%이상 가격 상승 시 분할 매도\n\n"
                 "매일 아침 출발 직전 종목들을 찾아냅니다\n"

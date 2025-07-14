@@ -1,6 +1,7 @@
 name: Send Open Prices
 
 on:
+  workflow_dispatch:    # 수동 실행 버튼 활성화
   schedule:
     - cron: '0 23 * * *'  # 매일 23:00 UTC → 다음날 08:00 KST
 
